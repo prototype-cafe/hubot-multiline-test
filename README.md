@@ -21,6 +21,6 @@ Then add **hubot-multiline-test** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot echo hello
+user1>> hubot mlecho hello
 hubot>> user1: hello
 ```

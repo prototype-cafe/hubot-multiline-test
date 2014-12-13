@@ -13,4 +13,4 @@ describe 'multiline-test', ->
     require('../src/multiline-test')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/echo ((.*\s*)+)/)
+    expect(@robot.respond).to.have.been.calledWith(/mlecho ((.*\s*)+)/)
